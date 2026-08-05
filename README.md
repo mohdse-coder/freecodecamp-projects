@@ -127,3 +127,10 @@
 - 📱 **واکنش‌گرا** برای موبایل، تبلت و دسکتاپ
 
 ---
+## 🏅 certificates
+
+من دوره‌های زیر را در **freeCodeCamp** با موفقیت به پایان رسانده‌ام:
+
+![گواهینامه freeCodeCamp](./certificates/freecodecamp-certificate.jpg)
+
+برای مشاهده‌ی گواهینامه به‌صورت کامل، [اینجا](./certificates/freecodecamp-certificate.jpg) کلیک کنید.
