@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <h1>Share Your Information</h1>
+    <p>Use this form to tell us about yourself and upload your resume.</p>
+    <form method="post">
+     <fieldset>
+        <legend>Enter your information</legend>
+
+         <label for="first-name">first name  <input id="first-name" name="first-name" type="text" required ></label>
+         <label for="last-name">last name  <input id="last-name" name="last-name" type="text" required ></label>
+         <label for="email">email  <input id="email" name="email" type="email" required></label>
+         <label for="age">age  <input id="age" name="age" type="number" required></label>
+     </fieldset>
+     <br>
+     <fieldset>
+         <legend>Select Your Gender</legend>
+         <label>Male<input id="man-tik" name="gender" type="radio"  class="inline"></label>
+         <label>Female<input id="woman-tik" name="gender" type="radio"  class="inline" checked></label>
+     </fieldset>
+         <br>
+         <fieldset>
+        <legend>Enter Your Education Level</legend>
+          
+             <select>
+                 <option>select one</option>
+                 <option>Bachelor's</option>
+                 <option>Master's</option>
+                 <option>Doctorate</option>
+                 <option>other</option>
+             </select>
+        
+         </fieldset>
+     <br>
+     <fieldset>
+        <legend>Write Your Resume</legend>
+
+            <textarea id="resume" name="resume" rows="3" cols="30" placeholder="my resume..."></textarea>
+         </fieldset>
+            <br>
+         <input type="submit" value="Submit" />
+         
+    </form>
+
+    
+
+
+
+</body>
+</html>

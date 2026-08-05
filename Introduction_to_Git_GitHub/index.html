@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Introduction to Git & GitHub</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <nav id="navbar" aria-label="Main Navigation">
+    <header>Introduction to Git & GitHub</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Installing Git">Installing Git</a>
+    <a class="nav-link" href="#Basic Git Commands">Basic Git Commands</a>
+    <a class="nav-link" href="#Branching and Merging">Branching and Merging</a>
+    <a class="nav-link" href="#GitHub Features">GitHub Features</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Git is a Version Control System. It allows you to track, manage, and save changes in your code without losing previous versions.</p>
+      <p>GitHub is an online platform that hosts Git repositories. It lets you collaborate with others, share projects, and manage code online.</p>
+      
+    </section>
+
+    <section class="main-section" id="Installing Git">
+      <header>Installing Git</header>
+      <p>To install Git, go to the official website git-scm.com
+ and download the version for your operating system (Windows, Linux, macOS).</p>
+      <p>After installation, you should configure your username and email so that each commit is associated with your information.</p>
+      <code>git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+</code>
+
+<p class="section-p">Steps list:</p>
+      <ul>
+        <li>Download from the official website</li>
+        <li>Run the installer</li>
+        <li>Set username and email</li>
+      </ul>
+      
+    </section>
+
+    <section class="main-section" id="Basic Git Commands">
+      <header>Basic Git Commands</header>
+      <p>You can turn any new project into a Git repository using git init.</p>
+      <p>After changing files, you add them to the staging area with git add and then save them with git commit.</p>
+      <p>Sample code:</p>
+      <code>git init
+git add file.txt
+git commit -m "first commit"
+</code>
+
+<p class="section-p">Basic commands list:</p>
+      <ul>
+        <li>git status → Check project status</li>
+        <li>git log → View commit history</li>
+        <li>git add → Stage changes for commit</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Branching and Merging">
+      <header>Branching and Merging</header>
+      <p>Branches in Git allow you to work on multiple versions of your code simultaneously.</p>
+      <p>When your work is finished, you can combine branches using git merge.</p>
+      <p>Sample code:</p>
+      <code>git branch new-feature
+git checkout new-feature
+git merge new-feature
+</code>
+
+<p class="section-p">List of commands:</p>
+      <ul>
+        <li>git branch → Create a new branch</li>
+        <li>git checkout → Switch branches</li>
+        <li>git merge → Merge branches</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="GitHub Features">
+      <header>GitHub Features</header>
+      <p>GitHub provides a user-friendly interface to manage Git repositories online. You can push your projects to make them available online.</p>
+      <p>One important feature is the Pull Request, which lets team members propose changes that can be reviewed and merged.</p>
+      <p>Sample code:</p>
+      <code>git remote add origin https://github.com/username/repo.git
+git push -u origin main
+git clone https://github.com/username/repo.git
+</code>
+
+<p class="section-p">Features list:</p>
+      <ul>
+        <li>Create a repository</li>
+        <li>Clone a project</li>
+        <li>Push changes</li>
+        <li>Pull Requests</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

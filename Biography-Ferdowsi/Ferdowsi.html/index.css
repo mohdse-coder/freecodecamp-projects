@@ -1,0 +1,165 @@
+body{
+    background-color: #FFF5F2;
+}
+
+h1{
+    display: flex;      
+    justify-content: center; 
+    padding: 0 ;
+    margin: 30px ;
+}
+
+p{
+    display: flex;      
+    justify-content: center; 
+    align-items: center;
+    padding: 0 ;
+    margin: 0px ;
+    
+
+}
+h2 {
+    display: flex;       
+    justify-content: center; 
+    align-items: center; 
+        
+}
+img {
+
+    display: block;
+    margin:  20px auto 30px auto;
+    
+    height: 550px;
+    
+}
+.img-div{
+
+    background-color: white; 
+  display: inline-block;   
+  padding: 10px;           
+  border: 1px solid #ccc;
+}
+
+.img-div , img{
+    display: block;         
+  max-width: 100%;         
+  height: auto;
+}
+
+.Biography1{
+    
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+    
+}
+
+.Biography2{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography3{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography4{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography5{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography6{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 40px 10px;
+}
+
+
+.Biography7{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography8{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography9{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography10{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography11{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.Biography12{
+        
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+h3 {
+    display: flex;       
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+h3 , .p-h3{
+
+
+    background-color: white; 
+  margin: auto 200px;           
+  border: 1px #ccc;
+  
+}
+
+
+.p-h3{
+          
+    justify-content: center; 
+    align-items: center;
+    border-top: none;
+}
+
+.p-a{
+
+    display: flex;       
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}

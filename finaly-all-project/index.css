@@ -1,0 +1,154 @@
+/* تنظیمات کلی صفحه */
+body {
+  margin: 0;
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* ---------------------- */
+/* نوار بالا (navbar) */
+/* ---------------------- */
+#navbar {
+  background-color: #0077ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #ffe600;
+}
+
+/* ---------------------- */
+/* بخش خوش‌آمدگویی */
+/* ---------------------- */
+#welcome-section {
+  height: 100vh; /* تمام ارتفاع صفحه */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0077ff, #00bfff);
+  color: white;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 2.5rem;
+  max-width: 90%;
+  line-height: 1.5;
+}
+
+/* ---------------------- */
+/* بخش پروژه‌ها */
+/* ---------------------- */
+#projects {
+  padding: 100px 20px 60px;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+/* ظرف پروژه‌ها */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* هر پروژه */
+.project-tile {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-tile:hover {
+  transform: translateY(-6px);
+}
+
+/* عکس پروژه */
+.project-tile img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+/* لینک زیر عکس */
+.project-tile a {
+  display: block;
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.project-tile a:hover {
+  background: #005ad3;
+}
+
+/* ---------------------- */
+/* لینک پروفایل پایین صفحه */
+/* ---------------------- */
+#profile-link {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  background: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#profile-link:hover {
+  background: #005ad3;
+}
+
+/* ---------------------- */
+/* واکنش‌گرا (برای موبایل) */
+/* ---------------------- */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #welcome-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .project-tile {
+    width: 90%;
+  }
+}
