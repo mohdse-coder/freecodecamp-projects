@@ -131,6 +131,6 @@
 
 من دوره‌های زیر را در **freeCodeCamp** با موفقیت به پایان رسانده‌ام:
 
-![گواهینامه freeCodeCamp](./certificates/certificate.jpg)
+![گواهینامه freeCodeCamp](./certificates/certificates.jpg)
 
-برای مشاهده‌ی گواهینامه به‌صورت کامل، [اینجا](./certificates/certificate.jpg) کلیک کنید.
+برای مشاهده‌ی گواهینامه به‌صورت کامل، [اینجا](./certificates/certificates.jpg) کلیک کنید.
