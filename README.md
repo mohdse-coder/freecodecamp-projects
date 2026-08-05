@@ -131,6 +131,6 @@
 
 من دوره‌های زیر را در **freeCodeCamp** با موفقیت به پایان رسانده‌ام:
 
-![گواهینامه freeCodeCamp](./certificates/certificates.jpg)
+![گواهینامه freeCodeCamp](https://github.com/mohdse-coder/freecodecamp-projects/blob/main/certificates/certificates.jpg)
 
-برای مشاهده‌ی گواهینامه به‌صورت کامل، [اینجا](./certificates/certificates.jpg) کلیک کنید.
+برای مشاهده‌ی گواهینامه به‌صورت کامل، [اینجا](https://github.com/mohdse-coder/freecodecamp-projects/blob/main/certificates/certificates.jpg) کلیک کنید.
